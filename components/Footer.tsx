@@ -8,7 +8,7 @@ const Footer = () => {
 		<footer className='py-10 border-t border-peach max-width'>
 			<div className='flex items-center justify-between'>
 				<Link href='/' className='text-purple text-xl font-semibold'>
-					Прометей
+					Прометей.
 				</Link>
 				<nav className='flex items-center gap-12 max-tablet:hidden'>
 					<ul className='flex items-center gap-8'>
