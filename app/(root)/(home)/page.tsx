@@ -2,7 +2,9 @@ import Link from "next/link"
 import {ArrowRight, Phone} from "lucide-react"
 import Image from 'next/image'
 import SectionHeading from "@/components/SectionHeading";
-import {benefits, skills} from "@/constants";
+import {benefits, portfolios, skills} from "@/constants";
+import PortfolioItem from "@/components/PortfolioItem";
+import TestimonialSection from "@/components/TestimonialSection";
 
 const page = () => {
 	return (
@@ -75,6 +77,24 @@ const page = () => {
 				))}
 			</div>
 		</section>
+
+		{/* portfolio section */}
+		<section className='section-padding max-width'>
+			<SectionHeading title='Наши работы'
+							subtitle='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur magni officiis placeat quidem sunt voluptatum?'/>
+			<div
+				className='grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6 mb-3 tablet:mb-6'>
+				{portfolios.slice(0, 3).map((portfolio, index) => (
+					<PortfolioItem key={index} portfolio={portfolio}/>
+				))}
+			</div>
+			<Link href={'/portfolio'} className='btn btn-primary mt-10 mx-auto w-max'>
+				Посмотрите все наши работы
+			</Link>
+		</section>
+
+		{/* testimonial section */}
+		<TestimonialSection />
 	</>
 	)
 }

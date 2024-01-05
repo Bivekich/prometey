@@ -1,4 +1,4 @@
-import {Instagram, Mail, MapPin, MessageCircleHeart, Phone, Youtube} from "lucide-react";
+import {Facebook, Instagram, Linkedin, Mail, MapPin, MessageCircleHeart, Phone, Twitter, Youtube} from "lucide-react";
 
 export const navLinks = [
     {
@@ -91,6 +91,222 @@ export const benefits = [
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequatur debitis delectus dignissimos eaque, eum, illo magni nemo neque nesciunt obcaecati odit, tempore vel voluptates voluptatibus. Accusantium alias aliquam aliquid aspernatur consequatur cumque deleniti dolor ea esse et exercitationem illum incidunt iste molestias officia optio pariatur provident quas, sapiente vero?"
     },
 ]
+
+export const portfolios = [
+    {
+        id: 1,
+        title: "Холодный дым и горящее сердце",
+        link: "#",
+        images: [
+            "/images/portfolio-1.png",
+            "/images/portfolio-2.png",
+            "/images/portfolio-3.png",
+        ],
+    },
+    {
+        id: 2,
+        title: "Фаер-шоу",
+        link: "#",
+        images: [
+            "/images/portfolio-4.png",
+            "/images/portfolio-5.png",
+            "/images/portfolio-6.png",
+        ],
+    },
+    {
+        id: 3,
+        title: "Искро-пои",
+        link: "#",
+        images: [
+            "/images/portfolio-7.png",
+            "/images/portfolio-8.png",
+            "/images/portfolio-9.png",
+        ],
+    },
+    {
+        id: 4,
+        title: "Current Vandi Website",
+        link: "#",
+        images: [
+            "/images/portfolio-4.png",
+            "/images/portfolio-5.png",
+            "/images/portfolio-6.png",
+        ],
+    },
+    {
+        id: 5,
+        title: "Fit Fusion Gym Website",
+        link: "#",
+        images: [
+            "/images/portfolio-5.png",
+            "/images/portfolio-6.png",
+            "/images/portfolio-7.png",
+        ],
+    },
+    {
+        id: 6,
+        title: "DX Digital Agency Website",
+        link: "#",
+        images: [
+            "/images/portfolio-6.png",
+            "/images/portfolio-7.png",
+            "/images/portfolio-8.png",
+        ],
+    },
+    {
+        id: 7,
+        title: "Little Learners Website",
+        link: "#",
+        images: [
+            "/images/portfolio-7.png",
+            "/images/portfolio-8.png",
+            "/images/portfolio-9.png",
+        ],
+    },
+    {
+        id: 8,
+        title: "StreamVibe Website",
+        link: "#",
+        images: [
+            "/images/portfolio-8.png",
+            "/images/portfolio-9.png",
+            "/images/portfolio-4.png",
+        ],
+    },
+    {
+        id: 9,
+        title: "YourBank Website",
+        link: "#",
+        images: [
+            "/images/portfolio-9.png",
+            "/images/portfolio-4.png",
+            "/images/portfolio-5.png",
+        ],
+    },
+]
+
+export const reviews = [
+    {
+        id: 1,
+        name: "Соловьев Артём",
+        designation: "Главный инженер",
+        review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quo ratione vero. Aspernatur aut dicta doloremque eum excepturi facere fugiat harum illo modi numquam odit perspiciatis quos rem repellat repellendus reprehenderit, similique soluta ullam veniam.',
+        stars: 5,
+        socialLinks: [
+            {
+                id: 1,
+                icon: MessageCircleHeart,
+                url: "#",
+            },
+            {
+                id: 2,
+                icon: Instagram,
+                url: "#",
+            },
+            {
+                id: 3,
+                icon: Twitter,
+                url: "#",
+            },
+        ],
+    },
+    {
+        id: 2,
+        name: "Фролова Евгения",
+        designation: "Диктор",
+        review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quo ratione vero. Aspernatur aut dicta doloremque eum excepturi facere fugiat harum illo modi numquam odit perspiciatis quos rem repellat repellendus reprehenderit, similique soluta ullam veniam.',
+        stars: 3,
+        socialLinks: [
+            {
+                id: 1,
+                icon: MessageCircleHeart,
+                url: "#",
+            },
+            {
+                id: 2,
+                icon: Instagram,
+                url: "#",
+            },
+            {
+                id: 3,
+                icon: Twitter,
+                url: "#",
+            },
+        ],
+    },
+    {
+        id: 3,
+        name: "Морозова Анна",
+        designation: "Инженер-технолог",
+        review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quo ratione vero. Aspernatur aut dicta doloremque eum excepturi facere fugiat harum illo modi numquam odit perspiciatis quos rem repellat repellendus reprehenderit, similique soluta ullam veniam.',
+        stars: 5,
+        socialLinks: [
+            {
+                id: 1,
+                icon: MessageCircleHeart,
+                url: "#",
+            },
+            {
+                id: 2,
+                icon: Instagram,
+                url: "#",
+            },
+            {
+                id: 3,
+                icon: Twitter,
+                url: "#",
+            },
+        ],
+    },
+    {
+        id: 4,
+        name: "Алешин Алексей",
+        designation: "Психолог",
+        review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quo ratione vero. Aspernatur aut dicta doloremque eum excepturi facere fugiat harum illo modi numquam odit perspiciatis quos rem repellat repellendus reprehenderit, similique soluta ullam veniam.',
+        stars: 4,
+        socialLinks: [
+            {
+                id: 1,
+                icon: MessageCircleHeart,
+                url: "#",
+            },
+            {
+                id: 2,
+                icon: Instagram,
+                url: "#",
+            },
+            {
+                id: 3,
+                icon: Twitter,
+                url: "#",
+            },
+        ],
+    },
+    {
+        id: 5,
+        name: "Кузнецова Кира",
+        designation: "Инструктор по видам спорта",
+        review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quo ratione vero. Aspernatur aut dicta doloremque eum excepturi facere fugiat harum illo modi numquam odit perspiciatis quos rem repellat repellendus reprehenderit, similique soluta ullam veniam.',
+        stars: 4,
+        socialLinks: [
+            {
+                id: 1,
+                icon: MessageCircleHeart,
+                url: "#",
+            },
+            {
+                id: 2,
+                icon: Instagram,
+                url: "#",
+            },
+            {
+                id: 3,
+                icon: Twitter,
+                url: "#",
+            },
+        ],
+    },
+];
 
 export const socialLinks = [
     {
