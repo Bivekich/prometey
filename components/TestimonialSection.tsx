@@ -29,6 +29,7 @@ const TestimonialSection = () => {
       <section className='max-width section-padding'>
         <SectionHeading title='Что говорят о нас наши покупатели' subtitle='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur magni officiis placeat quidem sunt voluptatum?'/>
         <div>
+
           <div className='pb-3 border-b border-peach flex justify-between items-center'>
             <p>Всего отзывов: {reviews.length}</p>
             <div className='flex gap-2'>

@@ -306,7 +306,35 @@ export const reviews = [
             },
         ],
     },
-];
+]
+
+export const faqs = [
+    {
+        id: 1,
+        question: 'Что насчет безопасности?',
+        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis error eum impedit neque possimus sequi, suscipit tempora tenetur vitae voluptas?',
+    },
+    {
+        id: 2,
+        question: 'Сколько это все стоит?',
+        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis error eum impedit neque possimus sequi, suscipit tempora tenetur vitae voluptas?',
+    },
+    {
+        id: 3,
+        question: 'Можно ли сделать горящий текст на заказ?',
+        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis error eum impedit neque possimus sequi, suscipit tempora tenetur vitae voluptas?',
+    },
+    {
+        id: 4,
+        question: 'Можно ли посмотреть салют заранее?',
+        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis error eum impedit neque possimus sequi, suscipit tempora tenetur vitae voluptas?',
+    },
+    {
+        id: 5,
+        question: 'Как с Вами связаться?',
+        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis error eum impedit neque possimus sequi, suscipit tempora tenetur vitae voluptas?',
+    },
+]
 
 export const socialLinks = [
     {

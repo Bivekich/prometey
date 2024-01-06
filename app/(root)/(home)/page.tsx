@@ -5,6 +5,7 @@ import SectionHeading from "@/components/SectionHeading";
 import {benefits, portfolios, skills} from "@/constants";
 import PortfolioItem from "@/components/PortfolioItem";
 import TestimonialSection from "@/components/TestimonialSection";
+import FaqSection from "@/components/FaqSection";
 
 const page = () => {
 	return (
@@ -95,6 +96,9 @@ const page = () => {
 
 		{/* testimonial section */}
 		<TestimonialSection />
+
+		{/* FAQs section */}
+		<FaqSection />
 	</>
 	)
 }
