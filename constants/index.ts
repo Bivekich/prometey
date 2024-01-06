@@ -374,3 +374,30 @@ export const contactDetails = [
         text: 'Россия, Иваново',
     },
 ]
+
+export const timeline = [
+    {
+      id: 1,
+      title: 'Участие во всех крупных городских мероприятиях',
+      duration: '2018',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis eaque eligendi hic impedit mollitia odio quo ratione totam voluptatibus.',
+    },
+    {
+        id: 2,
+        title: 'Пламягенераторы',
+        duration: '2015',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis eaque eligendi hic impedit mollitia odio quo ratione totam voluptatibus.',
+    },
+    {
+        id: 3,
+        title: 'Искропои',
+        duration: '2013',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis eaque eligendi hic impedit mollitia odio quo ratione totam voluptatibus.',
+    },
+    {
+        id: 4,
+        title: 'Наше создание',
+        duration: '2010',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis eaque eligendi hic impedit mollitia odio quo ratione totam voluptatibus.',
+    },
+]

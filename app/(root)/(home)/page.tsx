@@ -14,20 +14,54 @@ const page = () => {
 		<section className='flex items-center max-width flex-col-reverse tablet:flex-row mb-10'>
 			{/* left side */}
 			<div className='tablet:w-2/3 mt-10 tablet:mt-0'>
-				<div className='flex flex-col gap-3 items-center tablet:items-start max-w-2xl text-center tablet:text-left'>
-					<p className='px-4 py-2 bg-peach-500 text-grey-600 w-max rounded'>Добро пожаловать🤗</p>
+				<div
+					className='flex flex-col gap-3 items-center tablet:items-start max-w-2xl text-center tablet:text-left'>
+					<p className='px-4 py-2 bg-peach-500 text-grey-600 w-max rounded'>Ваши деньги сгорят красиво 🔥</p>
 					<h1 className='text-grey'>Театр огня Прометей</h1>
-					<p className='text-grey-600'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo facilis quia quisquam sequi. Blanditiis, id totam. Ad aliquam, architecto cum deserunt dolor esse, eveniet expedita fugit incidunt inventore ipsa ipsam, maxime necessitatibus placeat quasi quis repellendus sequi tempora totam voluptatem?</p>
+					<p className='text-grey-600'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+						facilis quia quisquam sequi. Blanditiis, id totam. Ad aliquam, architecto cum deserunt dolor
+						esse, eveniet expedita fugit incidunt inventore ipsa ipsam, maxime necessitatibus placeat quasi
+						quis repellendus sequi tempora totam voluptatem?</p>
 				</div>
 				<div className='flex gap-5 mt-10 justify-center tablet:justify-start'>
 					<Link href={'/contact'} className='btn btn-primary'>
-						<Phone />
+						<Phone/>
 						Позвоните сейчас
 					</Link>
 					<Link href={'/portfolio'} className='btn'>
 						Посмотреть наши работы
 						<ArrowRight size={16}/>
 					</Link>
+				</div>
+
+				{/* stats */}
+				<div className='bg-peach-400 w-full py-8 px-10 rounded-l-lg mt-16 flex-wrap gap-12 hidden tablet:flex'>
+					<div>
+						<h3 className='text-grey-700'>55 <span className='text-purple'>+</span></h3>
+						<p className='text-grey-600'>Выполнено заказов</p>
+					</div>
+					<div>
+						<h3 className='text-grey-700'>55 <span className='text-purple'>+</span></h3>
+						<p className='text-grey-600'>Счастливых покупателей</p>
+					</div>
+					<div>
+						<h3 className='text-grey-700'>5 <span className='text-purple'>+</span></h3>
+						<p className='text-grey-600'>Лет работы</p>
+					</div>
+				</div>
+				<div className='mt-16 grid grid-cols-2 gap-3 tablet:hidden'>
+					<div className='py-8 px-10 rounded-lg bg-peach-400 text-center col-span-2'>
+						<h3 className='text-grey-700'>55 <span className='text-purple'>+</span></h3>
+						<p className='text-grey-600'>Выполнено заказов</p>
+					</div>
+					<div className='py-8 px-10 rounded-lg bg-peach-400 text-center col-span-2'>
+						<h3 className='text-grey-700'>55 <span className='text-purple'>+</span></h3>
+						<p className='text-grey-600'>Счастливых покупателей</p>
+					</div>
+					<div className='py-8 px-10 rounded-lg bg-peach-400 text-center col-span-2'>
+						<h3 className='text-grey-700'>5 <span className='text-purple'>+</span></h3>
+						<p className='text-grey-600'>Лет работы</p>
+					</div>
 				</div>
 			</div>
 			{/* right side */}
@@ -38,9 +72,11 @@ const page = () => {
 
 		{/* skills section */}
 		<section className='max-width section-padding'>
-			<SectionHeading title='Наши возможности' subtitle='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur magni officiis placeat quidem sunt voluptatum?'/>
+			<SectionHeading title='Наши возможности'
+							subtitle='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur magni officiis placeat quidem sunt voluptatum?'/>
 			{/* skills */}
-			<div className='grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6'>
+			<div
+				className='grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6'>
 				{skills.map((skill, index) => (
 					<div key={index} className='box flex flex-col items-center gap-5'>
 						<div className='w-16 h-16 rounded bg-purple flex items-center justify-center flex-shrink-0 mb-2'>
