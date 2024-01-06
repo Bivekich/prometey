@@ -12,7 +12,7 @@ const page = () => {
       <>
         <section className='max-width section-padding flex flex-col tablet:flex-row gap-20 items-center'>
             <div className='relative w-full tablet:w-1/2 h-[calc(300px+20vw)] tablet:h-[600px]'>
-                <Image src={'/images/about.png'} alt='hero' fill className='object-cover'/>
+                <Image src={'/images/about.png'} alt='hero' fill className='rounded object-cover'/>
             </div>
             <div className='tablet:w-1/2'>
                 <div className='space-y-3 max-tablet:text-center flex flex-col'>
