@@ -9,13 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "lucide-react": "^0.303.0",
     "next": "14.0.4",
+    "nextjs-toploader": "^1.6.4",
     "react": "^18",
     "react-dom": "^18",
     "swiper": "^11.0.5"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
